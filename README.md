@@ -2,6 +2,20 @@
 
 Supabase-first 오늘 할 일 + 달력 기반 투두 앱입니다.
 
+## Build Story (2026-02-03)
+
+2026년 2월 3일(OpenAI Codex 출시 타이밍)에 맞춰, 아이디어 단계부터 배포 가능한 코드 구조까지 A-Z로 제작한 예시 프로젝트입니다.
+
+- A. 아이디어 정의: "오늘 할 일 + 캘린더" 서비스 컨셉 확정
+- B. 초기 설계: Next.js App Router + TypeScript + Tailwind 구조 설계
+- C. UI 구현: 빠른 추가, 오늘/선택 날짜 목록, 월간 캘린더 구현
+- D. UX 개선: 정보 위계/가독성/빈 상태/피드백 메시지 개선
+- E. 데이터 전환: 로컬 스토리지 기반에서 Supabase-first 구조로 리팩터링
+- F. DB 모델링: `public.tasks` 테이블, 인덱스, 트리거, soft delete(`delete_flag`) 구성
+- G. 운영 고려: 환경변수 분리, 민감정보 ignore, GitHub 업로드 가능한 상태 정리
+
+즉, "기획 → 개발 → 데이터 연동 → 저장소 공개"까지 Codex와 함께 끝까지 진행한 실제 워크플로우입니다.
+
 ## 현재 아키텍처
 
 - Frontend: Next.js(App Router) + TypeScript + Tailwind
